@@ -58,6 +58,9 @@
     float: right;
 }
 
+#link{ 
+  margin-top: 12px;
+}
 .row.custom-padding {
     margin-left: -35px;
     margin-right: -35px;
