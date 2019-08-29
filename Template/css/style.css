@@ -591,7 +591,9 @@ body.fullpage {
 
 .navbar-brand {
     padding: 24px 15px;
+
 }
+
 
 .navbar-brand img {
     width: 122px;
@@ -856,6 +858,7 @@ nav.navbar .navbar-nav-centered {
 
 nav.navbar .navbar-collapse-centered {
     text-align: center;
+    
 }
 
 nav.navbar .nav .open > a {
