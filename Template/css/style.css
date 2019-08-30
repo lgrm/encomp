@@ -116,7 +116,17 @@
         max-width: 1330px;
     }
 }
+@media only screen and (max-width: 992px) {
+.content {
+  width:680px;
+}
+}
 
+@media only screen and (max-width: 690px) {
+  .content {
+  width:580px;
+}
+}
 .badge {
     border-radius: 2px;
     padding: 3px 6px;
@@ -589,6 +599,8 @@ body.fullpage {
     background-color: rgba(51, 60, 78, 0.45);
 }
 
+
+
 .navbar-brand {
     padding: 24px 15px;
 
@@ -599,11 +611,15 @@ body.fullpage {
     width: 122px;
 }
 
+
+
+
 nav.navbar .navbar-toggler {
     outline: 0;
     border: 0;
     color: #ffffff;
 }
+
 
 nav.navbar .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -3094,6 +3110,16 @@ nav.navbar .nav .open > a:hover, nav.navbar .nav .open > a:focus {
     .rtl-row div[class^="col-"] {
         float: inherit;
     }
+    
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+   
 
     nav.navbar .navbar-collapse {
         text-align: center;
